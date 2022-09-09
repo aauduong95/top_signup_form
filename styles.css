@@ -1,16 +1,20 @@
+:root {
+    --text-padding-left: 100px;
+}
+
 /* center-box */
 
 #container {
     display: inline-flex;
 }
 
-/* heading-text */
+/* heading-box */
 
 
 /* center-box */
 
 .center-box {
-    padding-left: 100px;
+    padding-left: var(--text-padding-left)
 }
 
 #center-box-heading {
@@ -30,4 +34,13 @@ form {
     padding-bottom: 15px
 }
 
-/* footer-text */
+input {
+    width: 300px;
+    height: 30px;
+}
+
+/* footer-box */
+
+.footer-box {
+    padding-left: var(--text-padding-left);
+}
