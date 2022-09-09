@@ -1,0 +1,33 @@
+/* center-box */
+
+#container {
+    display: inline-flex;
+}
+
+/* heading-text */
+
+
+/* center-box */
+
+.center-box {
+    padding-left: 100px;
+}
+
+#center-box-heading {
+    margin-bottom: 0px;
+}
+
+form {
+    display: inline-flex;
+}
+
+#form-right {
+    padding-left: 60px;
+}
+
+.prompt {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+/* footer-text */
