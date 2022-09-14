@@ -1,20 +1,72 @@
 :root {
-    --text-padding-left: 100px;
+    --text-padding-left: 80px;
+    --text-font-size: 10px;
 }
 
-/* center-box */
+html body {
+    padding: 0px;
+    margin: 0px;
+}
 
 #container {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
-/* heading-box */
+.left-pane {
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url("ZetongLiUnsplash.avif");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
 
+.left-pane div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2vw;
+    line-height: 2rem;
+    width: 100%;
+    background-color: rgba(93, 98, 99, 0.5);
+    color: white;
+    font-family: 'JelleeBold';
+}
 
-/* center-box */
+.left-pane img {
+    width: 6rem;
+    padding: 10px;
+}
+
+.left-pane p {
+    position: absolute;
+    bottom: 0px;
+}
+
+/* right-pane */
+
+.right-pane {
+    background-color: rgb(245, 245, 245);
+    padding-top: 95px;
+    font-size: 12px;
+}
+
+.heading-box {
+    padding-left: var(--text-padding-left);
+    padding-right: 50px;
+}
 
 .center-box {
-    padding-left: var(--text-padding-left)
+    padding-left: var(--text-padding-left);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #center-box-heading {
@@ -22,7 +74,7 @@
 }
 
 form {
-    display: inline-flex;
+    display: flex;
 }
 
 #form-right {
@@ -39,8 +91,12 @@ input {
     height: 30px;
 }
 
-/* footer-box */
+button {
+    padding: 10px;
+    background-color: rgba(193, 245, 255, 0.5);
+}
 
 .footer-box {
     padding-left: var(--text-padding-left);
+    padding-top: 30px;
 }
