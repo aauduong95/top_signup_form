@@ -3,6 +3,18 @@
     --text-font-size: 10px;
 }
 
+:focus {
+    color: blue;
+}
+
+input:invalid {
+    border-color: rgba(255, 116, 116, 0.671);;
+}
+
+input:valid {
+    border-color: green;
+}
+
 html body {
     padding: 0px;
     margin: 0px;
@@ -15,13 +27,13 @@ html body {
 }
 
 .left-pane {
+    display: flex;
     position: relative;
     width: 60vw;
     min-width: 345px;
     height: 100vh;
     background: url("ZetongLiUnsplash.avif");
     background-size: 100% 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
